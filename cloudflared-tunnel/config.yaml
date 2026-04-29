@@ -1,12 +1,13 @@
 name: "Cloudflared Tunnel for ARMv7"
 description: "Secure Cloudflare Zero Trust Tunnel (Argo) specifically for 32-bit ARM hardware."
-version: "1.0.0"
+version: "1.0.1"
 slug: "cloudflared_armv7"
 arch:
   - armv7
 startup: services
 boot: auto
 host_network: true
+init: false
 options:
   token: ""
 schema:
